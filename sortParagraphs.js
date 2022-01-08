@@ -3,7 +3,7 @@ function sortParagraphs(text) {
     let separateParagraphs = text.split("\n");
     let ordenateParagraphs = separateParagraphs.sort();
     ordenateParagraphs.forEach(element => {
-        formatedText = `${formatedText}\n${element}\n`;
+        formatedText = `${formatedText}\n${element}`;
     });
 
     return formatedText;
